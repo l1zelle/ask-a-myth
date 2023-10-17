@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    background: url(images/persephone-background.jpg);
+    height: 100%;
+    background-position: center;
+}
+.about-container {
+    background:#f9c0a7e7; 
+    border-radius: 7px;
+    padding: 8px 10px;
+    margin: 30px auto;
+    max-width: 550px;
+    height: 500px;
+    box-shadow: 0 0 20px 8px #fae0bc;
+   
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: center;
+    height: 50px;
+    text-align: center;
+    bottom: 50%;
+    margin-top: 20%;
+    color: #735353;
+}
+p {
+    font-size: 20px;
+    margin: center;
+    text-align: center;
+    margin-top: 5%; 
+    color: #735353;
+}

@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(images/persephone-background.jpg);
+    background: url(images/orpheus-background.jpg);
     height: 100%;
     background-position: center;
 }
@@ -34,13 +34,13 @@ body {
 }
 
 .chat-container {
-    background:#E3A393; 
+    background:rgb(234, 173, 93); 
     border-radius: 7px;
     padding: 8px 10px;
     margin: 30px auto;
     max-width: 550px;
     height: 630px;
-    box-shadow: 0 0 20px 8px #e4aea4;
+    box-shadow: 0 0 20px 8px #e4cca4;
    
 }
 
@@ -50,7 +50,7 @@ body {
     width: 100%;
     height: 80px;
     margin: 10px 0;
-    background: #B5838D;
+    background: #c66f35;
     text-align: center;
     border-radius: 30px;
     
@@ -98,7 +98,7 @@ img {
 }
 
 .message-left {
-    background-color: #FFE4EE;
+    background-color: #fff8e4;
     padding: 0.625em;
     border-radius: 15px;
     margin-bottom: 0.625em;
