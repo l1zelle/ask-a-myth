@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    background: url(images/narcissus-background.jpg);
+    height: 100%;
+    background-position: center;
+}
+
+.button {
+    width: 400px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 1.5px solid #735353;
+    background: transparent;
+    color: #735353;
+    cursor: pointer;
+    position: relative;
+}
+
+.button:hover{
+    filter:brightness(0.9);
+}
+
+
+.button:active {
+    transform: translateY(2px);
+}
+
+.chat-container {
+    background:rgb(227, 95, 95); 
+    border-radius: 7px;
+    padding: 8px 10px;
+    margin: 30px auto;
+    max-width: 550px;
+    height: 630px;
+    box-shadow: 0 0 20px 8px #d38b8b;
+   
+}
+
+.chat-header {
+    margin-bottom: 10px;
+    color: #ffffff;
+    width: 100%;
+    height: 80px;
+    margin: 10px 0;
+    background: #be3131;
+    text-align: center;
+    border-radius: 30px;
+    
+
+}
+
+.chat-header h2 {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: center;
+    height: 50px;
+    text-align: center;
+    bottom: 50%;
+        
+}
+img {
+    width: 50px;
+    margin-top: 10px;
+    border-radius: 3px;
+    margin: center;
+}
+
+.chat-messages {
+    height: 430px;
+    overflow-y: scroll;
+}
+
+.chat-messages:-webkit-scrollbar {
+    display: none;
+    
+}
+
+.message-right {
+    background-color: #f7ecec;
+    padding: 0.625em;
+    border-radius: 20px;
+    margin-bottom: 0.625em;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+    
+
+    
+}
+
+.message-left {
+    background-color: #ffe4e4;
+    padding: 0.625em;
+    border-radius: 15px;
+    margin-bottom: 0.625em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.message-sender {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.message-text {
+    font-size: 13px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    width: 50%;
+}
+
+.chat-input-form {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+
+
+}
+
+.chat-input {
+    padding: 0.625em;
+    border: none;
+    border-radius: 30px;
+    background-color:#FFE4EE;
+    color: #735353;
+    font-size: 1em;
+    flex-grow: 1;
+}
+
+.send-button {
+    margin-left: 0.625em;
+}
