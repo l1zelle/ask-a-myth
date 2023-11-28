@@ -37,6 +37,7 @@
     text-decoration: none;
     color: #735353;
     text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 .navbar ul li::after{
@@ -64,7 +65,7 @@
 }
 .content h1{
     font-size: 70px;
-    margin-top: 80px;
+    margin-top: 75px;
 }
 .content p{ 
     margin: 20px auto;
@@ -73,8 +74,8 @@
 }
 
 button{
-    width: 200px;
-    padding: 15px 0;
+    width: 250px;
+    padding: 20px 0;
     text-align: center;
     margin: 20px 10px;
     border-radius: 25px;
@@ -86,6 +87,10 @@ button{
     position: relative;
     overflow: hidden;
 
+}
+b{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
 span{
     background: #ffdc7afa;
@@ -151,7 +156,7 @@ button:hover{
     margin: 20px 0;
 }
 .user img{
-    width: 40px;
+    width: 45px;
     margin-right: 20px;
     border-radius: 3px;
 }
@@ -160,4 +165,25 @@ button:hover{
 }
 .messages-col:hover{
     transform: translateY(-7px)
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 1px;
+     
+}
+h2{
+    margin: 20px auto;
+    line-height: 25px;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h4{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+small{
+    font-size: medium;
+}
+li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
